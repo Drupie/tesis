@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap" rel="stylesheet">
+    <style>
+        nav{
+
+            width: 100%;
+            margin: 0 auto;
+            position:absolute;
+            top: 750px;
+           
+            display: flex;
+            justify-content: center;
+        }
+        nav a{
+
+            padding:30px;
+            background-color: #8e44ad;
+            margin-left: 3%;
+            border-radius: 50%;
+            color: #fafafa;
+            text-decoration: none;
+            transition: all 0.5s ;
+        }
+        nav a:hover{
+            background-color: #9b59b6;
+        }
+    </style>
+</head>
+<body>
+    <body>
+        <div id='content' align='center'>
+          <div id="titulo">Conoce el arte cubismo</div>
+            <div id='conf'>
+                  <span>Piezas en el rompecabezas</span>
+                  <select id='piezas'>
+              <option value='4'>4</option>
+                      <option value='9'>9</option>
+                      <option value='16'>16</option>
+                      <option value='25'>25</option>
+                      <option value='36'>36</option>
+                      <option value='0' disabled>..</option>
+                      <option value='0' disabled>..</option>
+                      <option value='100'>100</option>
+                  </select><input type='button' id='barajar' value='Barajar' />
+                  <div><span>Clic en los cuadros para intercambiarlos</span></div>
+                </div>
+          </div>
+
+
+          <nav>
+
+            <a href="index.html">1</a>
+            <a href="dos.html">2</a>
+            <a href="tres.html">3</a>
+          </nav>
+      </body>
+
+      <script src="script.js"></script>
+</body>
+</html>
