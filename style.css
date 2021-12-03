@@ -12,15 +12,20 @@ td.pieza{background:url(cubismo1.png); transition:.3s ease-in-out; -moz-transiti
 
 div.posic{background:#FFF; padding:5px; border:1px solid #00e800; width:150px; position:absolute; top:70px; overflow:auto; min-height:200px; max-height:250px}
 
-div#titulo{font-family: 'Inconsolata', monospace; font-size: 30px; background-color: #8e44ad;color: #fafafa;margin-bottom: 50px;}
+div#titulo{font-family: 'Inconsolata', monospace; font-size: 30px; background-color: #0984e3;color: #fafafa;margin-bottom: 50px;}
 
 
 
 input[type="button"]{
-    background-color: #8e44ad;
+    background-color: #0984e3;
     padding:10px;
     margin-left: 10px;
     border: none;
     color: #fafafa;
     border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+input[type="button"]:hover{
+    background-color: #74b9ff;
 }
